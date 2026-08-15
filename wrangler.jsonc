@@ -1,0 +1,16 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "matematika-testy",
+  "main": "worker.js",
+  "compatibility_date": "2026-08-15",
+  "assets": {
+    "directory": ".",
+    "binding": "ASSETS"
+  },
+  "kv_namespaces": [
+    {
+      "binding": "RESULTS",
+      "id": "b6a8840a0bf841b1a074b489e17b6e1c"
+    }
+  ]
+}
